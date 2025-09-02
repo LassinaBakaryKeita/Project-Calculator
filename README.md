@@ -46,8 +46,8 @@ The calculator interface is composed of **three main sections**:
 
 ---
 🖼 Project Structure
-<img width="592" height="224" alt="image" src="https://github.com/user-attachments/assets/f3ab4952-7753-4854-87f1-b4981a4b9eab" />
 
+<img width="592" height="224" alt="image" src="https://github.com/user-attachments/assets/f3ab4952-7753-4854-87f1-b4981a4b9eab" />
 
 ---
 
@@ -62,5 +62,5 @@ The calculator interface is composed of **three main sections**:
 
 ## 🤝 Contributions
 Yours Contributions are welcome!  
-To contribute:  
+
 
