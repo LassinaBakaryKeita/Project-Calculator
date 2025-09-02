@@ -1,0 +1,129 @@
+body{
+    background-color:#C7CCD3;
+}
+
+h1{
+    text-align: center;
+}
+
+.conteneur-bouton{
+    width: 50%;
+    height: 70%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap:10px;
+    row-gap: 2px;
+}
+
+.conteneur-bouton button{
+    width: 100%;
+    height: 50px;
+    border-radius:5px ;
+    box-shadow: 5px 5px 20px rgb(0,0,0);
+    background-color: #3A4350;
+    opacity: 0.579;
+    color:#FFFFFF;
+    font-weight: 700;
+}
+
+.conteneur-parent{
+    margin-top: 5%;
+    margin-left:30%;
+    width: 30%;
+    height: 75vh;
+    background-color: rgba(23, 3, 47, 0.579);
+    background-color: #2C3440;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.conteneur-ecran{
+    width: 50%;
+    height: 15%;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+
+
+#btn-ac{
+    grid-column: 2 / 4;
+}
+
+#btn-zero{
+    grid-column: 1 / 3;    
+}
+
+#btn-mul,
+#btn-sous,
+#btn-add,
+#btn-div,
+#btn-equal{
+    color:#FF9500;
+}
+
+/* Media query ( Responsivité ) */ 
+
+@media screen and (max-width:480px) {
+    .conteneur-parent{
+        margin-left: 5%;
+        width: 90%;
+        height:70vh;
+    }
+
+    .conteneur-bouton{
+        width:100%;
+        height:70% 
+    }
+
+    .conteneur-bouton button{
+        width:100%;
+        height:100%;
+        font-size: 1.5em;
+    }
+
+    .conteneur-ecran{
+       width: 100%;
+        height: 30%;
+    }
+}
+
+@media screen and (min-width:481px ) and (max-width:1024px) {
+    .conteneur-parent{
+        margin-left: 25%;
+        width: 50%;
+        height:70vh;
+    }
+
+    .conteneur-bouton{
+        width:100%;
+        height:70% ;
+    }
+
+    .conteneur-bouton button{
+        width:100%;
+        height:100%;
+        font-size: 1.5em;
+    }
+
+    .conteneur-ecran{
+       width: 100%;;
+       height: 30%;
+    }
+
+}
